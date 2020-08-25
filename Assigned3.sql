@@ -3,148 +3,148 @@ USE testingsystem;
 -- Question 1: Them it nhat 10 record vao moi table
 SELECT * FROM Department;
 INSERT INTO Department	(	DepartmentName	) 
-VALUES					(	'Sale'			),
+VALUES			(	'Sale'			),
                         (	'Accountant'	),
-						(	'Finance'		),
+			(	'Finance'		),
                         (	'Marketing'		),
                         (	'Operation'		),
                         (	'HR'			),
                         (	'Purchase'		),
-						(	'Shareholder'	),
+			(	'Shareholder'	),
                         (	'Service'		),
                         (	'Delivery'		);
 
 
 SELECT * FROM `position`;                        
 INSERT INTO `position`	(	PositionName	)
-VALUES					(	'Dev'			),
-						(	'Test'			),
-						(	'Scrum Master'	),
-						(	'Test'			),
-						(	'Dev'			),
-						(	'Dev'			),
-						(	'Scrum Master'	),
-						(	'PM'			),
-						(	'Dev'			),
-						(	'Scrum Master'	);
+VALUES			(	'Dev'			),
+			(	'Test'			),
+			(	'Scrum Master'	),
+			(	'Test'			),
+			(	'Dev'			),
+			(	'Dev'			),
+			(	'Scrum Master'	),
+			(	'PM'			),
+			(	'Dev'			),
+			(	'Scrum Master'	);
                         
 
 SELECT * FROM `account`;                        
 INSERT INTO `account`	(Email				,Username	,FullName				,DepartmentID	,PositionID	)
-VALUES					('hieuu99@gmail.com','Hieungx'	,'Nguyen Trung Hieu'	,		1		,	1		),
-						('hung95@gmail.com'	,'Hung95'	,'Nguyen Quoc Hung'		,		2		,	2		),
-						('huyen97@gmail.com','HuyenAnh'	,'Tran Thanh Huyen'		,		3		,	3		),
-						('Namm@gmail.com'	,'NamANh'	,'Le Thanh Nam'			,		4		,	4		),
-						('Minhh@gmail.com'	,'Minh'		,'Le Quang Minh'		,		5		,	5		),
-						('tuan@gmail.com'	,'Tuan'		,'Le Minh Tuan'			,		6		,	6		),
-						('longg@gmail.com'	,'Long95'	,'Le Thanh Long'		,		7		,	7		),
-						('phuong@gmail.com'	,'phuong'	,'Tran Phuong Phuong'	,		8		,	8		),
-						('phanh@gmail.com'	,'PAchua'	,'Ha Phuong Anh'		,		9		,	9		),
-						('ann95@gmail.com'	,'Manh An'	,'Dinh Manh An'			,		10		,	10		);
-                        
+VALUES			('hieuu99@gmail.com','Hieungx'	,'Nguyen Trung Hieu'	,		1		,	1		),
+			('hung95@gmail.com'	,'Hung95'	,'Nguyen Quoc Hung'		,		2		,	2		),
+			('huyen97@gmail.com','HuyenAnh'	,'Tran Thanh Huyen'		,		3		,	3		),
+			('Namm@gmail.com'	,'NamANh'	,'Le Thanh Nam'			,		4		,	4		),
+			('Minhh@gmail.com'	,'Minh'		,'Le Quang Minh'		,		5		,	5		),
+			('tuan@gmail.com'	,'Tuan'		,'Le Minh Tuan'			,		6		,	6		),
+			('longg@gmail.com'	,'Long95'	,'Le Thanh Long'		,		7		,	7		),
+			('phuong@gmail.com'	,'phuong'	,'Tran Phuong Phuong'	,		8		,	8		),
+			('phanh@gmail.com'	,'PAchua'	,'Ha Phuong Anh'		,		9		,	9		),
+			('ann95@gmail.com'	,'Manh An'	,'Dinh Manh An'			,		10		,	10		);
+
 SELECT * FROM `group`;
 INSERT INTO `group`		(GroupName	,CreatorID	)
-VALUES					('group 1'	,	1		),
-                        ('group 2'	,	2		),
-                        ('group 3'	,	3		),
-                        ('group 4'	,	4		),
-                        ('group 5'	,	5		),
-                        ('group 6'	,	6		),
-                        ('group 7'	,	7		),
-                        ('group 8'	,	8		),
-                        ('group 9'	,	9		),
-                        ('group 10'	,	10		);
+VALUES				('group 1'	,	1		),
+				('group 2'	,	2		),
+				('group 3'	,	3		),
+				('group 4'	,	4		),
+				('group 5'	,	5		),
+				('group 6'	,	6		),
+				('group 7'	,	7		),
+				('group 8'	,	8		),
+				('group 9'	,	9		),
+				('group 10'	,	10		);
                         
 SELECT * FROM groupaccount;
 INSERT INTO groupaccount	(AccountID	)
-VALUES						(	1		),
-							(	2		),
-							(	3		),
-							(	4		),
-							(	5		),
-							(	6		),
-							(	7		),
-							(	8		),
-							(	9		),
-							(	10		);
+VALUES				(	1		),
+				(	2		),
+				(	3		),
+				(	4		),
+				(	5		),
+				(	6		),
+				(	7		),
+				(	8		),
+				(	9		),
+				(	10		);
 
 SELECT * FROM TypeQuestion;
 INSERT INTO TypeQuestion(TypeName			)
-VALUES					('Multiple-Choice'	),
-						('Essay'			),
-						('Essay'			),
-						('Multiple-Choice'	),
-						('Essay'			),
-						('Multiple-Choice'	),
-						('Multiple-Choice'	),
-						('Essay'			),
-						('Multiple-Choice'	),
-						('Essay'			);
-                        
+VALUES			('Multiple-Choice'	),
+			('Essay'			),
+			('Essay'			),
+			('Multiple-Choice'	),
+			('Essay'			),
+			('Multiple-Choice'	),
+			('Multiple-Choice'	),
+			('Essay'			),
+			('Multiple-Choice'	),
+			('Essay'			);
+
 SELECT * FROM CategoryQuestion;
-INSERT INTO CategoryQuestion(CategoryName	)
-VALUES						('Java'			),
-							('.NET'			),
-							('SQL'			),
-							('Postman'		),
-							('Ruby'			),
-							('.NET'			),
-							('.NET'			),
-							('Java'			),
-							('SQL'			),
-							('Postman'		);
+INSERT INTO CategoryQuestion	(CategoryName		)
+VALUES				('Java'			),
+				('.NET'			),
+				('SQL'			),
+				('Postman'		),
+				('Ruby'			),
+				('.NET'			),
+				('.NET'			),
+				('Java'			),
+				('SQL'			),
+				('Postman'		);
                             
 SELECT * FROM Question;
-INSERT INTO Question(Content	,CategoryID	,TypeID	,CreatorID	)
-VALUES				('câu hỏi 1',1			,1		,1			),
+INSERT INTO Question			(Content	,CategoryID	,TypeID	,CreatorID	)
+VALUES					('câu hỏi 1',1			,1		,1			),
 					('cnt2'		,2			,2		,2			),
 					('cnt3'		,3			,3		,3			),
 					('cnt4'		,4			,4		,4			),
 					('cnt5'		,5			,5		,5			),
-					('câu hỏi 6',6			,6		,6			),
+					('câu hỏi 6'	,6			,6		,6			),
 					('cnt7'		,7			,7		,7			),
 					('cnt8'		,8			,8		,8			),
 					('cnt9'		,9			,9		,9			),
 					('cnt10'	,10			,10		,10			);
                     
 SELECT * FROM Answer;
-INSERT INTO Answer	(Content	,QuestionID	,IsCorrect	)
-VALUES				('cnt1'		,1			,0			),
-					('cnt2'		,2			,1			),
-					('cnt3'		,3			,0			),
-					('cnt4'		,4			,0			),
-					('cnt5'		,5			,1			),
-					('cnt6'		,6			,0			),
-					('cnt7'		,7			,0			),
-					('cnt8'		,8			,1			),
-					('cnt9'		,9			,1			),
-					('cnt10'	,10			,0			);
+INSERT INTO Answer	(Content	,QuestionID		,IsCorrect		)
+VALUES			('cnt1'		,1			,0			),
+			('cnt2'		,2			,1			),
+			('cnt3'		,3			,0			),
+			('cnt4'		,4			,0			),
+			('cnt5'		,5			,1			),
+			('cnt6'		,6			,0			),
+			('cnt7'		,7			,0			),
+			('cnt8'		,8			,1			),
+			('cnt9'		,9			,1			),
+			('cnt10'	,10			,0			);
                     
 SELECT * FROM Exam;
-INSERT INTO Exam	(Code	,Title	,CategoryID	,CreatorID	,Duration	)
-VALUES				('a1'	,'thi1'	,1			,1			,60			),
-					('a2'	,'thi2'	,2			,2			,45			),
-					('a3'	,'thi3'	,3			,3			,120		),
-					('a4'	,'thi4'	,4			,4			,60			),
-					('a5'	,'thi5'	,5			,5			,120		),
-					('a6'	,'thi6'	,6			,6			,90			),
-					('a7'	,'thi7'	,7			,7			,45			),
-					('a8'	,'thi8'	,8			,8			,15			),
-					('a9'	,'thi9'	,9			,9			,15			),
-					('a10'	,'thi10',10			,10			,60			);
-                    
+INSERT INTO Exam	(Code	,Title	,CategoryID		,CreatorID		,Duration		)
+VALUES			('a1'	,'thi1'	,1			,1			,60			),
+			('a2'	,'thi2'	,2			,2			,45			),
+			('a3'	,'thi3'	,3			,3			,120			),
+			('a4'	,'thi4'	,4			,4			,60			),
+			('a5'	,'thi5'	,5			,5			,120			),
+			('a6'	,'thi6'	,6			,6			,90			),
+			('a7'	,'thi7'	,7			,7			,45			),
+			('a8'	,'thi8'	,8			,8			,15			),
+			('a9'	,'thi9'	,9			,9			,15			),
+			('a10'	,'thi10',10			,10			,60			);
+
 SELECT * FROM ExamQUestion;
-INSERT INTO ExamQUestion(ExamID	,QuestionID	)
-VALUES					(	1	,		1	),
-						(	2	,		2	),
-						(	3	,		3	),
-						(	4	,		4	),
-						(	5	,		5	),
-						(	6	,		6	),
-						(	7	,		7	),
-						(	8	,		8	),
-						(	9	,		9	),
-						(	10	,		10	);
+INSERT INTO ExamQUestion(ExamID		,QuestionID		)
+VALUES			(	1	,		1	),
+			(	2	,		2	),
+			(	3	,		3	),
+			(	4	,		4	),
+			(	5	,		5	),
+			(	6	,		6	),
+			(	7	,		7	),
+			(	8	,		8	),
+			(	9	,		9	),
+			(	10	,		10	);
                         
 -- Question 2 : Lay ra tat ca cac phong ban
 SELECT * FROM Department;
