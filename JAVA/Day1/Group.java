@@ -1,10 +1,12 @@
 package Day1;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Group {
-	int 	groupID		;
-	String 	groupName	;
-	int		creatorID	;
-	Date	createDate	;
+	short 		groupID		;
+	String 		groupName	;
+	Account		creator	;
+	LocalDate	createDate	;
+	Account[]	accounts;
 }

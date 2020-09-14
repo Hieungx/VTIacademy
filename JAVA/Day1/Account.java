@@ -1,14 +1,20 @@
 package Day1;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Account {
 	int 		accountID	;
 	String 		email		;
 	String 		userName	;
 	String 		fullName	;
-	Department 	departmentID;
-	Position 	positionID	;
-	Date 		createDate	;
+	Department 	department;
+	Position 	position	;
+	LocalDate	createDate	;
+	Group[] 	groups;
+	
+//	public String toString() {
+//		return accountID + "-" + email + "-" + userName + "-" + fullName + "-" + departmentID + "-" + positionID + "-" + createDate;
+//		
+//	}
 	
 }

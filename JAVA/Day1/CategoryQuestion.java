@@ -1,6 +1,6 @@
 package Day1;
 
 public class CategoryQuestion {
-	int		categoryID	;
+	byte		categoryID	;
 	String	categoryName;
 }

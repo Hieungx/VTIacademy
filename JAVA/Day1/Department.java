@@ -1,6 +1,6 @@
 package Day1;
 
 public class Department {
-	int 	departmentID	;
+	byte 	departmentID	;
 	String 	departmentName	;
 }

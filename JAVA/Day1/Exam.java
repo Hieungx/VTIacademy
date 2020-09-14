@@ -1,13 +1,15 @@
 package Day1;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Exam {
-	int 				examID		;
+	short 				examID		;
 	String 				code		;
 	String 				title		;
-	CategoryQuestion 	categoryID	;
-	int 				duration	;
-	int 				creatorID	;
-	Date 				createDate	;
+	CategoryQuestion 	category;
+	short 				duration	;
+	Account 				creator	;
+	LocalDate 			createDate	;
+	Question[]	questions;
 }
