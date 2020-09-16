@@ -47,22 +47,22 @@ public class Program {
 		account1.createDate = LocalDate.now();
 
 		Account account2 = new Account();
-		account1.accountID = 2;
-		account1.email = "hoanganh@gmail.com";
-		account1.userName = "HoangAnh";
-		account1.fullName = "Pham Hoang Anh";
-		account1.department = department2;
-		account1.position = position2;
-		account1.createDate = LocalDate.now();
+		account2.accountID = 2;
+		account2.email = "hoanganh@gmail.com";
+		account2.userName = "HoangAnh";
+		account2.fullName = "Pham Hoang Anh";
+		account2.department = department2;
+		account2.position = position2;
+		account2.createDate = LocalDate.now();
 
 		Account account3 = new Account();
-		account1.accountID = 3;
-		account1.email = "LeAnh@gmail.com";
-		account1.userName = "LeAnh";
-		account1.fullName = "Le Minh Anh";
-		account1.department = department1;
-		account1.position = position1;
-		account1.createDate = LocalDate.now();
+		account3.accountID = 3;
+		account3.email = "LeAnh@gmail.com";
+		account3.userName = "LeAnh";
+		account3.fullName = "Le Minh Anh";
+		account3.department = department1;
+		account3.position = position1;
+		account3.createDate = LocalDate.now();
 
 //		GROUP
 		Group group1 = new Group();
@@ -294,7 +294,7 @@ public class Program {
 			System.out.println(exam1.questions[i].questionID);
 		}
 		System.out.println();
-
+	
 	}
 
 }
