@@ -1,8 +1,10 @@
 package Day3;
 
 import java.time.LocalDate;
-import java.util.Date;
+import java.util.Arrays;
 import java.util.Random;
+
+
 
 public class Main {
 
@@ -64,15 +66,14 @@ public class Main {
 			System.out.println();
 		}
 		System.out.println("EX 5 - QUESTION 6");
-		Department[] departments = new Department[5];
-		for (int i = 0; i < departments.length; i++) {
-			departments[i].name = "Accounting";
-			departments[i].name = "Boss of director";
-			departments[i].name = "Sale";
-			departments[i].name = "Waiting room";
-			departments[i].name = "Marketing";
-			
-		}
-		
+		String[] departments = new String[] { "Accounting", "Boss of director", "Marketing", "Sale","Waiting room" };
+		 
+        // Sử dụng phương thức tĩnh của lớp Arrays để sắp xếp.
+        // Arrays.sort(Object[])
+        Arrays.sort(departments);
+ 
+        for (int i = 0; i < departments.length; i++) {
+            System.out.println("fruits " + i + " : " + departments[i]);
+        }
 	}
 }
