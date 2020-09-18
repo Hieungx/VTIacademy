@@ -1,7 +1,14 @@
 package Day3;
 
+import java.time.LocalDate;
+
 public class Person {
 	String name;
+	int id;
+	String fullName;
+	String email;
+	String userName;
+	LocalDate createDate;
 
 	public void CaplocksName(String name) {
 		String s1 = name.substring(0, 1).toUpperCase();
