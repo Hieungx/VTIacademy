@@ -73,7 +73,7 @@ public class Main {
         Arrays.sort(departments);
  
         for (int i = 0; i < departments.length; i++) {
-            System.out.println("fruits " + i + " : " + departments[i]);
+            System.out.println("department " + i + " : " + departments[i]);
         }
 	}
 }
