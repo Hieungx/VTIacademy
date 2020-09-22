@@ -1,13 +1,11 @@
-package Day5;
+package Day5Ex2Ques5;
 
 import java.util.Scanner;
 
 public abstract class DienThoaiDiDong {
-	
-	
+
 	public void nghe() {
-		Scanner scanner = new Scanner(System.in);
-		String inputNumber = scanner.nextLine();
+		String inputNumber = "VIETTEL";
 		System.out.print(inputNumber + " is calling ");
 	};
 

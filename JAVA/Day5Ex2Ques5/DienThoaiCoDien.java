@@ -1,11 +1,11 @@
-package Day5;
+package Day5Ex2Ques5;
 
 public class DienThoaiCoDien extends DienThoaiDiDong implements VuKhi {
 
 	@Override
 	public void nghe() {
 		super.nghe();
-		System.out.println(" Điện thoại đểu");
+		System.out.println(" �?iện thoại đểu");
 	}
 
 	@Override
@@ -25,12 +25,12 @@ public class DienThoaiCoDien extends DienThoaiDiDong implements VuKhi {
 		System.out.println("Ting Ting!!!");
 
 	}
-	
+
 	@Override
 	public void tanCongKeXau() {
-		System.out.println("Ném vào đầu nó");		
+		System.out.println("Ném vào đầu nó");
 	}
-	
+
 	public void ngheRadio() {
 		System.out.println("Tìm kênh .... ");
 	}
